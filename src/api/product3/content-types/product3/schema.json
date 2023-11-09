@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product3s",
+  "info": {
+    "singularName": "product3",
+    "pluralName": "product3s",
+    "displayName": "Product3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
